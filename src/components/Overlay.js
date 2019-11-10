@@ -31,7 +31,7 @@ class Overlay extends React.Component {
     return (
       <div {...css(styles.container)}>
         <div {...css(styles.content)}>
-          <p {...css(styles.greetingTitle)}>New Conversation</p>
+          <p {...css(styles.greetingTitle)}>New Convo</p>
           <p {...css(styles.greeting)}>Create new conversation with {username}?</p>
           <div {...css(styles.divider)} />
           <div {...css(styles.button)} onClick={this.createConversation}>
